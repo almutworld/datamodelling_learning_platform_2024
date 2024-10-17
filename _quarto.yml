@@ -1,16 +1,18 @@
 project:
   type: website
-
-website:
+  output-dir: docs
+  
+book:
   title: "datamodelling_learning_platform_2024"
-  output-dir: docs  # This is important for GitHub Pages
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  author: "Jane Doe"
+  date: "1/1/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
       
-
+bibliography: references.bib 
 
 format:
   html:
