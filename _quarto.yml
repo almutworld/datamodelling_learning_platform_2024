@@ -1,14 +1,16 @@
 project:
   type: website
-  output-dir: docs
 
 website:
   title: "datamodelling_learning_platform_2024"
+  output-dir: docs  # This is important for GitHub Pages
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      
+
 
 format:
   html:
