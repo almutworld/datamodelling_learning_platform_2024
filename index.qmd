@@ -1,11 +1,14 @@
 ---
-title: "datamodelling_learning_platform_2024"
+title: "Home"
 ---
 
-This is a Quarto website.
+<!-- For commenting out, we use the html codes !-- -->
+
+For my new position at the USZ as data modeller, I want to have a site where I can organise the learning material that I am digesting for this position. I want to follow [Chi Zhang's](https://andreaczhang.github.io/) set-up with Quarto and see where that takes me.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
+# In a quarto website, I can also present code and calculations, e.g.:
 1 + 1
 ```

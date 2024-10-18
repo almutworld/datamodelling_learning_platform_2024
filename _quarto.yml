@@ -1,25 +1,22 @@
 project:
-  type: website  # Specifies the project type
-  output-dir: docs  # Output directory for GitHub Pages
-
-# Title and metadata for the website
-title: "datamodelling_learning_platform_2024"  # Title of the website
-description: "A platform for learning data modeling"  # Optional: description of your website
-
-# Author and date can be included here
-author: "Jane Doe"  # Author's name
-date: "2024-01-01"  # Date in YYYY-MM-DD format
-
-# Define the chapters of your website
-chapters:
-  - index.qmd
-  - intro.qmd
-  - summary.qmd
-  - references.qmd
-
-#bibliography: references.bib  # Your bibliography file
+  type: website
+  output-dir: docs
 
 
+website:
+  title: "My Learning Platform"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: aboutme.qmd
+        text: About me
+      - href: datamodelling.qmd
+        text: Data
+      - href: persdevel.qmd
+        text: Personal development
+      - href: otherinterests.qmd
+        text: Other interests
 
 format:
   html:
@@ -28,4 +25,6 @@ format:
     toc: true
 
 editor: visual
+
+
 

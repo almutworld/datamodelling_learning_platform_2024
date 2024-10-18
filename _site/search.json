@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "otherinterests.html",
-    "href": "otherinterests.html",
-    "title": "Other interests",
-    "section": "",
-    "text": "In this section, I want to collect thoughts, experiences and links in context of my other interests. This will contain interests such as singing, dancing, hiking and climbing."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
@@ -14,11 +7,11 @@
     "text": "For my new position at the USZ as data modeller, I want to have a site where I can organise the learning material that I am digesting for this position. I want to follow Chi Zhang’s set-up with Quarto and see where that takes me.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n# In a quarto website, I can also present code and calculations, e.g.:\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "datamodelling.html",
-    "href": "datamodelling.html",
-    "title": "datamodelling",
+    "objectID": "otherinterests.html",
+    "href": "otherinterests.html",
+    "title": "Other interests",
     "section": "",
-    "text": "In this section, I want to collect information on data modelling."
+    "text": "In this section, I want to collect thoughts, experiences and links in context of my other interests. This will contain interests such as singing, dancing, hiking and climbing."
   },
   {
     "objectID": "aboutme.html",
@@ -26,6 +19,13 @@
     "title": "About me",
     "section": "",
     "text": "This is me"
+  },
+  {
+    "objectID": "datamodelling.html",
+    "href": "datamodelling.html",
+    "title": "datamodelling",
+    "section": "",
+    "text": "In this section, I want to collect information on data modelling."
   },
   {
     "objectID": "persdevel.html",
