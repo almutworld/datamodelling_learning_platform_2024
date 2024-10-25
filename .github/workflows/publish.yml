@@ -28,8 +28,7 @@ jobs:
           Rscript -e "install.packages(c('knitr', 'rmarkdown', 'quarto'), repos='http://cran.rstudio.com/')"
 
       - name: Render the site
-        run: |
-          Rscript -e "quarto::quarto_render()"
+        run: quarto render --verbose
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
